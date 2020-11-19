@@ -1,0 +1,16 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: noderedrovrf20201117
+  buildpack: sdk-for-nodejs
+  command: npm start
+  disk_quota: 1G
+  memory: 256MB
+  domain: eu-gb.mybluemix.net
+  host: node-red-rovrf-2020-11-17
+  services:
+    - node-red-rovrf-2020--db2oncloud-1605611984238-3766
+    - node-red-rovrf-2020--cloudant-1605611753328-57381
+  env:
+    OPTIMIZE_MEMORY: true

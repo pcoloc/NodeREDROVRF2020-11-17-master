@@ -1,0 +1,221 @@
+{
+  "version": 1,
+  "db2_db": {
+    "searchPatterns": [
+      "user-provided:node-red-rovrf-2020--db2oncloud-1605611984238-3766:db",
+      "cloudfoundry:$['dashDB For Transactions'][0].credentials.db",
+      "env:service_db2:$.db",
+      "env:db2_db",
+      "file:/server/localdev-config.json:$.db2_db"
+    ]
+  },
+  "db2": {
+    "credentials": {
+      "searchPatterns": [
+        "user-provided:node-red-rovrf-2020--db2oncloud-1605611984238-3766:username",
+        "cloudfoundry:db2",
+        "env:db2_credentials",
+        "file:/server/localdev-config.json:db2_credentials"
+      ]
+    }
+  },
+  "db2_dsn": {
+    "searchPatterns": [
+      "user-provided:node-red-rovrf-2020--db2oncloud-1605611984238-3766:dsn",
+      "cloudfoundry:$['dashDB For Transactions'][0].credentials.dsn",
+      "env:service_db2:$.dsn",
+      "env:db2_dsn",
+      "file:/server/localdev-config.json:$.db2_dsn"
+    ]
+  },
+  "db2_host": {
+    "searchPatterns": [
+      "user-provided:node-red-rovrf-2020--db2oncloud-1605611984238-3766:host",
+      "cloudfoundry:$['dashDB For Transactions'][0].credentials.host",
+      "env:service_db2:$.host",
+      "env:db2_host",
+      "file:/server/localdev-config.json:$.db2_host"
+    ]
+  },
+  "db2_hostname": {
+    "searchPatterns": [
+      "user-provided:node-red-rovrf-2020--db2oncloud-1605611984238-3766:hostname",
+      "cloudfoundry:$['dashDB For Transactions'][0].credentials.hostname",
+      "env:service_db2:$.hostname",
+      "env:db2_hostname",
+      "file:/server/localdev-config.json:$.db2_hostname"
+    ]
+  },
+  "db2_https_url": {
+    "searchPatterns": [
+      "user-provided:node-red-rovrf-2020--db2oncloud-1605611984238-3766:https_url",
+      "cloudfoundry:$['dashDB For Transactions'][0].credentials.https_url",
+      "env:service_db2:$.https_url",
+      "env:db2_https_url",
+      "file:/server/localdev-config.json:$.db2_https_url"
+    ]
+  },
+  "db2_jdbcurl": {
+    "searchPatterns": [
+      "user-provided:node-red-rovrf-2020--db2oncloud-1605611984238-3766:jdbcurl",
+      "cloudfoundry:$['dashDB For Transactions'][0].credentials.jdbcurl",
+      "env:service_db2:$.jdbcurl",
+      "env:db2_jdbcurl",
+      "file:/server/localdev-config.json:$.db2_jdbcurl"
+    ]
+  },
+  "db2_password": {
+    "searchPatterns": [
+      "user-provided:node-red-rovrf-2020--db2oncloud-1605611984238-3766:password",
+      "cloudfoundry:$['dashDB For Transactions'][0].credentials.password",
+      "env:service_db2:$.password",
+      "env:db2_password",
+      "file:/server/localdev-config.json:$.db2_password"
+    ]
+  },
+  "db2_port": {
+    "searchPatterns": [
+      "user-provided:node-red-rovrf-2020--db2oncloud-1605611984238-3766:port",
+      "cloudfoundry:$['dashDB For Transactions'][0].credentials.port",
+      "env:service_db2:$.port",
+      "env:db2_port",
+      "file:/server/localdev-config.json:$.db2_port"
+    ]
+  },
+  "db2_ssldsn": {
+    "searchPatterns": [
+      "user-provided:node-red-rovrf-2020--db2oncloud-1605611984238-3766:ssldsn",
+      "cloudfoundry:$['dashDB For Transactions'][0].credentials.ssldsn",
+      "env:service_db2:$.ssldsn",
+      "env:db2_ssldsn",
+      "file:/server/localdev-config.json:$.db2_ssldsn"
+    ]
+  },
+  "db2_ssljdbcurl": {
+    "searchPatterns": [
+      "user-provided:node-red-rovrf-2020--db2oncloud-1605611984238-3766:ssljdbcurl",
+      "cloudfoundry:$['dashDB For Transactions'][0].credentials.ssljdbcurl",
+      "env:service_db2:$.ssljdbcurl",
+      "env:db2_ssljdbcurl",
+      "file:/server/localdev-config.json:$.db2_ssljdbcurl"
+    ]
+  },
+  "db2_uri": {
+    "searchPatterns": [
+      "user-provided:node-red-rovrf-2020--db2oncloud-1605611984238-3766:uri",
+      "cloudfoundry:$['dashDB For Transactions'][0].credentials.uri",
+      "env:service_db2:$.uri",
+      "env:db2_uri",
+      "file:/server/localdev-config.json:$.db2_uri"
+    ]
+  },
+  "db2_username": {
+    "searchPatterns": [
+      "user-provided:node-red-rovrf-2020--db2oncloud-1605611984238-3766:username",
+      "cloudfoundry:$['dashDB For Transactions'][0].credentials.username",
+      "env:service_db2:$.username",
+      "env:db2_username",
+      "file:/server/localdev-config.json:$.db2_username"
+    ]
+  },
+  "cloudant_apikey": {
+    "searchPatterns": [
+      "user-provided:node-red-rovrf-2020--cloudant-1605611753328-57381:apikey",
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.apikey",
+      "env:service_cloudant:$.apikey",
+      "env:cloudant_apikey",
+      "file:/server/localdev-config.json:$.cloudant_apikey"
+    ]
+  },
+  "cloudant": {
+    "credentials": {
+      "searchPatterns": [
+        "user-provided:node-red-rovrf-2020--cloudant-1605611753328-57381:username",
+        "cloudfoundry:cloudant",
+        "env:cloudant_credentials",
+        "file:/server/localdev-config.json:cloudant_credentials"
+      ]
+    }
+  },
+  "cloudant_host": {
+    "searchPatterns": [
+      "user-provided:node-red-rovrf-2020--cloudant-1605611753328-57381:host",
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.host",
+      "env:service_cloudant:$.host",
+      "env:cloudant_host",
+      "file:/server/localdev-config.json:$.cloudant_host"
+    ]
+  },
+  "cloudant_iam_apikey_description": {
+    "searchPatterns": [
+      "user-provided:node-red-rovrf-2020--cloudant-1605611753328-57381:iam_apikey_description",
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.iam_apikey_description",
+      "env:service_cloudant:$.iam_apikey_description",
+      "env:cloudant_iam_apikey_description",
+      "file:/server/localdev-config.json:$.cloudant_iam_apikey_description"
+    ]
+  },
+  "cloudant_iam_apikey_name": {
+    "searchPatterns": [
+      "user-provided:node-red-rovrf-2020--cloudant-1605611753328-57381:iam_apikey_name",
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.iam_apikey_name",
+      "env:service_cloudant:$.iam_apikey_name",
+      "env:cloudant_iam_apikey_name",
+      "file:/server/localdev-config.json:$.cloudant_iam_apikey_name"
+    ]
+  },
+  "cloudant_iam_role_crn": {
+    "searchPatterns": [
+      "user-provided:node-red-rovrf-2020--cloudant-1605611753328-57381:iam_role_crn",
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.iam_role_crn",
+      "env:service_cloudant:$.iam_role_crn",
+      "env:cloudant_iam_role_crn",
+      "file:/server/localdev-config.json:$.cloudant_iam_role_crn"
+    ]
+  },
+  "cloudant_iam_serviceid_crn": {
+    "searchPatterns": [
+      "user-provided:node-red-rovrf-2020--cloudant-1605611753328-57381:iam_serviceid_crn",
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.iam_serviceid_crn",
+      "env:service_cloudant:$.iam_serviceid_crn",
+      "env:cloudant_iam_serviceid_crn",
+      "file:/server/localdev-config.json:$.cloudant_iam_serviceid_crn"
+    ]
+  },
+  "cloudant_password": {
+    "searchPatterns": [
+      "user-provided:node-red-rovrf-2020--cloudant-1605611753328-57381:password",
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.password",
+      "env:service_cloudant:$.password",
+      "env:cloudant_password",
+      "file:/server/localdev-config.json:$.cloudant_password"
+    ]
+  },
+  "cloudant_port": {
+    "searchPatterns": [
+      "user-provided:node-red-rovrf-2020--cloudant-1605611753328-57381:port",
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.port",
+      "env:service_cloudant:$.port",
+      "env:cloudant_port",
+      "file:/server/localdev-config.json:$.cloudant_port"
+    ]
+  },
+  "cloudant_url": {
+    "searchPatterns": [
+      "user-provided:node-red-rovrf-2020--cloudant-1605611753328-57381:url",
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.url",
+      "env:service_cloudant:$.url",
+      "env:cloudant_url",
+      "file:/server/localdev-config.json:$.cloudant_url"
+    ]
+  },
+  "cloudant_username": {
+    "searchPatterns": [
+      "user-provided:node-red-rovrf-2020--cloudant-1605611753328-57381:username",
+      "cloudfoundry:$['cloudantNoSQLDB'][0].credentials.username",
+      "env:service_cloudant:$.username",
+      "env:cloudant_username",
+      "file:/server/localdev-config.json:$.cloudant_username"
+    ]
+  }
+}
